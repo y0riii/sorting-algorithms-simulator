@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting algorithms</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="input-cont">
+            <div class="num-cont">
+                <p class="label">Bars:</p>
+                <p class="num"></p>
+            </div>
+            <input type="range" min="10" max="300" class="bars-num"></input>
+            <div class="speed-cont">
+                <div class="label">Speed:</div>
+                <p class="num speed-num"></p>
+            </div>
+            <input type="range" min="1" max="100" class="speed"></input>
+
+        </div>
+        <div class="opt-cont">
+            <div class="btns">
+                <button class="btn start">Start</button>
+                <button class="btn random">Randomize</button>
+    
+            </div>
+            <select name="select" class="select">
+                <option value="bubble" class="opt">Bubble sort</option>
+                <option value="quick" class="opt">Quick sort</option>
+                <option value="merge" class="opt">Merge sort</option>
+                <option value="selection" class="opt">Selection sort</option>
+                <option value="insertion" class="opt">Insertion sort</option>
+            </select>
+        </div>
+    </div>
+    <div class="bars-cont"></div>
+</body>
+</html>
